@@ -1,0 +1,111 @@
+.footer {
+    background: linear-gradient(313deg, #022335 0%, #043a41 100%);
+    border-top: 1px solid rgba(0, 224, 255, 0.35);
+    box-shadow: 0 -4px 24px rgba(0, 224, 255, 0.18);
+}
+
+.footer__content {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__content-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link-num {
+    display: flex;
+
+    gap: 20px;
+}
+
+.footer__email a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: right;
+    color: #4abcec;
+}
+
+.footer__tel a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: right;
+    color: #fff
+}
+
+.footer__links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+
+.footer__links h3 {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 210%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #747d81;
+}
+
+.footer__social-media {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer__content-line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.footer__content-line p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    background: linear-gradient(180deg, #fff 65.96%, rgba(105, 104, 104, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-line {
+    flex: 1;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.footer-img {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 0 20px 0;
+    gap: 10px;
+}
+
+.footer-img h3 {
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 210%;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: #747d81;
+}
