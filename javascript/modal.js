@@ -71,9 +71,12 @@ if (modalClose) {
 }
 
 if (modalOverlay) {
-    modalOverlay.addEventListener('click', closeModal);
+    modalOverlay.addEventListener('click', (e) => {
+        if (e.target === modalOverlay) {
+            closeModal();
+        }
+    });
 }
-
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
         closeModal();
