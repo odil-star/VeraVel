@@ -5,6 +5,7 @@ const modalBtns = document.querySelectorAll('.modal-btn');
 const modal = document.querySelector('.modal');
 const modalClose = document.querySelector('.modal__close');
 const modalOverlay = document.querySelector('.modal__overflay');
+const modalContent = document.querySelector('.modal__content');
 
 if (phoneInput) {
     phoneInput.addEventListener('input', () => {
@@ -77,8 +78,8 @@ if (modalOverlay) {
         }
     });
 }
-document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') {
-        closeModal();
-    }
-});
+if (modalContent) {
+    modalContent.addEventListener('click', (e) => {
+        e.stopPropagation();
+    });
+}
